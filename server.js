@@ -1,5 +1,5 @@
 var express = require("express"),
-    app     = express.createServer(),
+    app     = express(),
     port    = parseInt(process.env.PORT, 10) || 4567;
     
 app.get("/", function(req, res) {
