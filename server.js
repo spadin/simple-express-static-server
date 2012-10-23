@@ -1,5 +1,6 @@
 var express = require("express"),
-    app     = express.createServer();
+    app     = express.createServer(),
+    port    = parseInt(process.env.PORT, 10) || 4567;
     
 app.get("/", function(req, res) {
   res.redirect("/index.html");
@@ -16,4 +17,4 @@ app.configure(function(){
   app.use(app.router);
 });
 
-app.listen(4567);
+app.listen(port);
