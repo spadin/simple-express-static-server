@@ -8,10 +8,10 @@ A very simple static file server. For development use only.
 
 Install dependencies (first time only):
 
-  $ npm install
+    $ npm install
 
 How to start:
 
-  $ node server
+    $ node server
 
-Open http://localhost:4567
+Open [http://localhost:4567](http://localhost:4567)
