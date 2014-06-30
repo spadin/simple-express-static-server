@@ -10,7 +10,10 @@ app.get("/", function (req, res) {
 });
 
 app.use(methodOverride());
-app.use(bodyParser());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 app.use(express.static(__dirname + '/public'));
 app.use(errorHandler({
   dumpExceptions: true,
