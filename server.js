@@ -20,4 +20,5 @@ app.use(errorHandler({
   showStack: true
 }));
 
+console.log("Simple static server listening at http://localhost:" + port);
 app.listen(port);
