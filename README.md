@@ -21,3 +21,8 @@ If you need a different port:
     $ PORT=9999 node server
 
 Open [http://localhost:9999](http://localhost:9999)
+
+To specify ip and port
+
+    $ node server 192.168.0.11 8181
+
