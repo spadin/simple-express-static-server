@@ -1,6 +1,6 @@
 var express = require("express"),
     app = express(),
-    bodyParser = require('body-parser')
+    bodyParser = require('body-parser'),
     errorHandler = require('errorhandler'),
     methodOverride = require('method-override'),
     port = parseInt(process.env.PORT, 10) || 4567;
