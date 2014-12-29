@@ -3,7 +3,8 @@ var express = require("express"),
     bodyParser = require('body-parser'),
     errorHandler = require('errorhandler'),
     methodOverride = require('method-override'),
-    port = parseInt(process.env.PORT, 10) || 4567;
+    ip =  process.argv[2] || '127.0.0.1',
+    port = process.argv[3] || parseInt(process.env.PORT, 10) || 4567;
 
 app.get("/", function (req, res) {
   res.redirect("/index.html");
@@ -20,5 +21,5 @@ app.use(errorHandler({
   showStack: true
 }));
 
-console.log("Simple static server listening at http://localhost:" + port);
-app.listen(port);
+console.log("Simple static server listening at http://"+ip+":" + port);
+app.listen(port, ip);
