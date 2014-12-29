@@ -22,7 +22,8 @@ If you need a different port:
 
 Open [http://localhost:9999](http://localhost:9999)
 
-To specify ip and port
+If you need a different hostname:
 
-    $ node server 192.168.0.11 8181
+    $ HOSTNAME=192.168.0.1 node server
 
+Open [http://192.168.0.1:4567](http://192.168.0.1:4567)
