@@ -5,4 +5,4 @@ if(!process.argv[2]) {
   process.exit();
 }
 
-require('.server');
+require('./server');
