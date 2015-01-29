@@ -22,7 +22,7 @@
     "errorhandler": "^1.0.1",
     "method-override": "^1.0.0"
   },
-  bin: {
+  "bin": {
     "simple-server": "./start.js"
   }
 }
