@@ -27,3 +27,14 @@ If you need a different hostname:
     $ HOSTNAME=192.168.0.1 node server
 
 Open [http://192.168.0.1:4567](http://192.168.0.1:4567)
+
+CLI based generic server:
+----------
+
+Install as a global module
+
+    $ sudo npm install -g spadin/simple-express-static-server
+
+Serve a directory
+
+    $ simple-server my/public/dir
