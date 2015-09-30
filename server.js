@@ -20,7 +20,7 @@ app.use(errorHandler({
 
 app.get("/", function (req, res) {
   res.redirect("/index.html");
-});
+}); //comment
 
 console.log("Simple static server showing %s listening at http://%s:%s", publicDir, hostname, port);
 app.listen(port, hostname);
