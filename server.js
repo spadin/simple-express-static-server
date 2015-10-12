@@ -10,7 +10,7 @@ var express = require("express"),
     publicDir = process.argv[2] || __dirname + '/public';
 
 app.get("/", function (req, res) {
-  res.redirect("/index.html");
+  res.sendFile("/index.html");
 });
 
 app.use(methodOverride());
