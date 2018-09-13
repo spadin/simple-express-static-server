@@ -1,8 +1,8 @@
-#Simple Express Static File Server
+# Simple Express Static File Server
 
 A very simple static file server. For development use only.
 
-##Installation
+## Installation
 
 
 ### Using as a local module (recommended)
@@ -16,13 +16,11 @@ A very simple static file server. For development use only.
     $ sudo npm install -g spadin/simple-express-static-server
     $ simple-server my/public/dir
     
-
-    
 ## Contribute
 
 Install dependencies (first time only):
 
-   $ npm install
+    $ npm install
 
 How to start:
 
@@ -44,7 +42,7 @@ Open [http://192.168.0.1:4567](http://192.168.0.1:4567)
 
 ## Copyright and license
 
-Code and documentation copyright 2013-2016 Sandro Padin. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
+Code and documentation copyright 2013-2018 Sandro Padin. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
 
 
 
